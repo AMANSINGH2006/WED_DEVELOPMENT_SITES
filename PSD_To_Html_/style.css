@@ -1,0 +1,211 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family:'roboto',sans-serif;
+}
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+}
+.topbar{
+    background-color:#576574;
+    padding-top:18px;
+    padding-bottom:18px;
+    overflow: auto;
+    padding-top: 5px;
+}
+.sidepadding{
+    padding:0 7%;
+}
+.para{
+    float: left;
+    color:white;
+    margin: 0;
+}
+.icon{
+      float: right;
+}
+.image{
+    background-color: white;
+    color: #576574;
+    padding: 7px;
+    border-radius:50%;
+}
+#logobar{
+    padding-top: 20px;
+}
+                           /* navbar */
+#navbar{
+    background-color: #ee5253;
+}
+ #navbar ul li{
+    display:inline-block;
+    padding: 17px 0;
+    padding-right: 33px;
+}
+ #navbar{
+    margin-top:15px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+                          /* footer */
+#imp-link{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+  .div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;  
+}
+.div33 h3{
+    line-height: 45px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: rgb(226, 156, 16);
+    text-decoration-thickness: 3px;
+}
+#footer-menu{
+    list-style-type:none;
+}
+#footer-menu li,a{
+    padding-bottom: 9px;
+    color: white;
+    text-decoration: none;
+
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 10px;
+}
+                            /* poster*/
+#poster{
+    background-image: url(Ramlaxam.jpeg);
+    height: 990px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+     font-size: 18px;
+     text-align: center;
+ } 
+                      /* whyus section */                 
+.section33 img{
+    width: 100px;
+    height: 100px;
+}
+#whysection{
+    overflow: auto;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    text-align: center;  
+}
+.redheading{
+    text-align: center;
+    color: #ee5253;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom:25px;
+}
+.section33 h2{
+    color: #ee5253;
+    margin: 20px;
+}
+                           /* contact us section */
+#contact-container{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%; 
+    float: left;
+}   
+.section30{
+    width:30%;
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+} 
+#contact-btn{
+   background-color: white;
+   color: #ee5253;
+   font-size: 18px;
+   font-weight: bold;
+   border-radius: 8px;
+   text-decoration: none;
+   padding: 8px 15px;
+}
+                     /* blogs */
+.section333{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    text-align: center;  
+}
+.ramji{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}                 
+.section333 a{
+    color: #ee5253;
+    font-weight: 600;
+    font-size: 14px;
+}
+                                 /* subscribe */
+#subscribe-section{
+    background-color:#ee5253;
+    overflow: auto;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 h2{
+    font-size: 27px;
+     color: white;
+     text-align: right;
+     padding-right: 50px;
+}
+.section50 form{
+       padding-top: 5px;
+}
+.section50 input[type="email"]{
+     padding: 8px 15px;
+     font-size: 15px;
+}
+.section50 input::placeholder{
+     color: #ee5253;
+}
+.section50 input[type="submit"]
+{
+    padding: 8px 15px;
+    font-size: 15px;
+    color: #ee5253;
+}
